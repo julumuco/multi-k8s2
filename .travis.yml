@@ -19,7 +19,6 @@ before_install:
 
 script:
     - docker run jldocker954/react-test npm test -- --coverage
-
 deploy:
     provider: script
     script: bash ./deploy.sh
